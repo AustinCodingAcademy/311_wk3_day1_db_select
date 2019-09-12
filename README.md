@@ -35,16 +35,16 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * How many rows were returned:  7 rows
+  * First name of the first user: Camela
 
 2.
-  * How many rows were returned:
-  * What states do they live in:
+  * How many rows were returned: 2 rows
+  * What states do they live in: MD & TX
 
 3.
-  * How many rows were returned:
-  * What's the last email on the list:
+  * How many rows were returned: 4
+  * What's the last email on the list: nichelle_meteer@meteer.com
 
 
   ## Summary
