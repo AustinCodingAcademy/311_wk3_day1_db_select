@@ -43,8 +43,8 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
   * What states do they live in: MD & TX
 
 3.
-  * How many rows were returned: 0
-  * What's the last email on the list: n/a
+  * How many rows were returned: 4
+  * What's the last email on the list: nichelle_meteer@meteer.com
 
 
   ## Summary
