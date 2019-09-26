@@ -1,5 +1,7 @@
 # SELECT Practice
 
+Final
+
 ## Setup
 
 You should have created a Google Cloud account, installed MySQL Workbench and made a connection to your database. In this lesson we will practice querying data.
