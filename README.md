@@ -27,6 +27,9 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 
 1. Select all fields from users where the city equals Chicago
 
+SELECT count(*) FROM admin.users WHERE city LIKE 'chicago'
+
+
 2. Select the "state" field for users with a first name of "Glory"
 
 3. Select all fields from users who's phone1 starts with "773"
@@ -35,8 +38,8 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * How many rows were returned: 7
+  * First name of the first user: Mitsue
 
 2.
   * How many rows were returned:
