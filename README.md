@@ -35,7 +35,7 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 ## Query Responses
 
 1.
-  * How many rows were returned: 5
+  * How many rows were returned: 7
   * First name of the first user: Mitsue
 
 2.
@@ -43,8 +43,8 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
   * What states do they live in: Md, TX
 
 3.
-  * How many rows were returned: 5
-  * What's the last email on the list: 'erick_nievas@aol.com'
+  * How many rows were returned: 6
+  * What's the last email on the list: nichelle_meteer.com
 
 
   ## Summary
