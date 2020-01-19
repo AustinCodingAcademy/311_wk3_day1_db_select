@@ -27,6 +27,10 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 
 1. Select all fields from users where the city equals Chicago
 
+SELECT *
+FROM users
+WHERE city = "Chicago"
+
 2. Select the "state" field for users with a first name of "Glory"
 
 3. Select all fields from users who's phone1 starts with "773"
