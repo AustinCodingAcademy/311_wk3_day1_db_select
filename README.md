@@ -27,24 +27,40 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 
 1. Select all fields from users where the city equals Chicago
 
+SELECT *
+FROM users
+WHERE city = "Chicago"
+
 2. Select the "state" field for users with a first name of "Glory"
 
-3. Select all fields from users who's phone1 starts with "773"
+SELECT *
+FROM users
+WHERE first_name ="Glory"
 
+3. Select all fields from users who's phone1 starts with "773"SELECT *
+SELECT *
+FROM users
+WHERE phone1 
+LIKE '773%'
 
 ## Query Responses
 
 1.
   * How many rows were returned:
+  7 row
   * First name of the first user:
+    Mitsue 
 
 2.
   * How many rows were returned:
+    2row
   * What states do they live in:
-
+    MD, TX
 3.
   * How many rows were returned:
+    6 row
   * What's the last email on the list:
+    nichelle_meteer@meteer.com
 
 
   ## Summary
