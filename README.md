@@ -37,14 +37,17 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 1.
   * How many rows were returned:
   * First name of the first user:
+  <!-- Mitsue -->
 
 2.
   * How many rows were returned:
   * What states do they live in:
+  <!-- MD, TX -->
 
 3.
   * How many rows were returned:
   * What's the last email on the list:
+  <!-- 6 -->
 
 
   ## Summary
