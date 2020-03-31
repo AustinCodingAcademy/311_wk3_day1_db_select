@@ -34,17 +34,17 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 
 ## Query Responses
 
-1.
-  * How many rows were returned:
-  * First name of the first user:
+1. SELECT * FROM users where city like 'Chicago';
+  * How many rows were returned: 7
+  * First name of the first user: Mitsue
 
-2.
-  * How many rows were returned:
-  * What states do they live in:
+2. Select state from users where first_name like 'Glory';
+  * How many rows were returned: 2
+  * What states do they live in: MD and TX
 
-3.
-  * How many rows were returned:
-  * What's the last email on the list:
+3. Select * from users where phone1 like '773%';
+  * How many rows were returned: 6
+  * What's the last email on the list: nichelle_meteer@meteer.com
 
 
   ## Summary
