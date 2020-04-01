@@ -63,3 +63,5 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 ## Summary
 
 Think about how this data is laid out. Feel free to look in the initialize.sql file to see the raw data. Do you think it would be easier or harder to search through this data manually or using SQL? What about when the dataset gets larger?
+
+//
