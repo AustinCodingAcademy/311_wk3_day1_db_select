@@ -4,22 +4,23 @@
 
 You should have created a Google Cloud account, installed MySQL Workbench and made a connection to your database. In this lesson we will practice querying data.
 
-* Open MySQL Workbench
+- Open MySQL Workbench
 
 ## Part 1 - Initialize data
 
-* Make sure you've selected the "admin" database
+- Make sure you've selected the "admin" database
 
-* Create a new query tab
-  * Click the button on the top left that has a SQL file with a "plus" icon on it
+- Create a new query tab
 
-* Click the folder icon in your query tab to open a new file
+  - Click the button on the top left that has a SQL file with a "plus" icon on it
 
-* Select the "initialize.sql" script that lives in this repo
+- Click the folder icon in your query tab to open a new file
 
-* Click the lightning bolt icon to run the query
+- Select the "initialize.sql" script that lives in this repo
 
-* If you refresh your schemas you should see a "users" table
+- Click the lightning bolt icon to run the query
+
+- If you refresh your schemas you should see a "users" table
 
 ## Part 2 - Query data
 
@@ -31,22 +32,36 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 
 3. Select all fields from users who's phone1 starts with "773"
 
-
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+
+- How many rows were returned: 7 rows
+- First name of the first user: Mitsue
+
+- Query:
+
+- Query: select count(\*) from users where city = 'chicago'
+- Query: select \* from users where city = 'chicago'
+- Query: select first_name from users where city = 'chicago' order by id ASC limit 1; (yes, I know I didn't need to do this. I couldn't let it go)
 
 2.
-  * How many rows were returned:
-  * What states do they live in:
+
+- How many rows were returned: 7
+- What states do they live in: MD, TX
+
+- Query: select state from users where first_name = 'glory'
 
 3.
-  * How many rows were returned:
-  * What's the last email on the list:
 
+- How many rows were returned: 6
+- What's the last email on the list: nichelle_meteer@meteer.com
 
-  ## Summary
+-Query: select count(\*) from users where phone1 like "773%"
+-Query: select email from users where phone1 like "773%" ORDER BY id DESC LIMIT 1; (and another moment)
 
-  Think about how this data is laid out. Feel free to look in the initialize.sql file to see the raw data. Do you think it would be easier or harder to search through this data manually or using SQL? What about when the dataset gets larger?
+## Summary
+
+Think about how this data is laid out. Feel free to look in the initialize.sql file to see the raw data. Do you think it would be easier or harder to search through this data manually or using SQL? What about when the dataset gets larger?
+
+//
