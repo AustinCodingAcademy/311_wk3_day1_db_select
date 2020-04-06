@@ -35,16 +35,25 @@ We are going to run a couple SQL queries and put the answers in the "Query Respo
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * Query: 
+      SELECT * FROM usersaddress WHERE city LIKE "Chicago"
+      SELECT * FROM users WHERE id = 201
+  * How many rows were returned: 7
+  * First name of the first user: Barrett
 
 2.
-  * How many rows were returned:
-  * What states do they live in:
+  * Query: 
+      SELECT * from users
+      INNER JOIN usersaddress ON users.id = usersaddress.user_id
+      WHERE first_name LIKE "Glory"
+  * How many rows were returned: 2
+  * What states do they live in: HI, AZ
 
 3.
-  * How many rows were returned:
-  * What's the last email on the list:
+  * Query: 
+      SELECT * from userscontact WHERE phone1 LIKE "773%"
+  * How many rows were returned: 6
+  * What's the last email on the list: mitsue_tollner@yahoo.com
 
 
   ## Summary
