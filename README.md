@@ -44,16 +44,16 @@ Also, put the answers in the "Query Responses" section of this README.
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * How many rows were returned: 7
+  * First name of the first user: Mitsue
 
 2.
-  * How many rows were returned:
-  * What states do they live in:
+  * How many rows were returned: 2
+  * What states do they live in: MD, TX
 
 3.
-  * How many rows were returned:
-  * What's the last email on the list:
+  * How many rows were returned: 6
+  * What's the last email on the list: nichelle_meteer@meteer.com
 
 ## Summary
 
