@@ -44,16 +44,38 @@ Also, put the answers in the "Query Responses" section of this README.
 ## Query Responses
 
 1.
-  * How many rows were returned:
+  SELECT
+  *
+  FROM
+  USERS
+  WHERE CITY = 'chicago'
+  * How many rows were returned: 
+  7
   * First name of the first user:
+  Mitsue
 
 2.
+  SELECT
+  state
+  FROM
+  USERS
+  WHERE first_name = 'Glory'
   * How many rows were returned:
+  2
   * What states do they live in:
+  MD, TX
 
 3.
+  SELECT
+  *
+  FROM
+  USERS
+  WHERE phone1 like "773%"
   * How many rows were returned:
+  6
   * What's the last email on the list:
+  'nichelle_meteer@meteer.com'
+
 
 ## Summary
 
