@@ -2,7 +2,7 @@
 
 ## Setup
 
-You should have created a Google Cloud account, created an project, created and instance, created a database in that instance called 'admin', installed MySQL Workbench and made a connection to that database. In this lesson we will practice querying data.
+You should have created a Google Cloud account, created a project, created and instance, created a database in that instance called 'admin', installed MySQL Workbench and made a connection to that database. In this lesson we will practice querying data.
 
 Start by opening MySQL Workbench
 
@@ -17,7 +17,7 @@ In this repo you'll see another file called `initialize.sql`. This file contains
 
 * Click the folder icon in your query tab to open a new file
 
-* Search for "311_wk3_day1_db_select" in your file explorer/finder window an select the "initialize.sql" script that lives in this repo
+* Search for "311_wk3_day1_db_select" in your file explorer/finder window and select the "initialize.sql" script that lives in this repo
 
 * When you do you'll see the scripts from this 'initialize.sql' file populate in your MySQL Workbench!!!!
 
@@ -39,7 +39,7 @@ Also, put the answers in the "Query Responses" section of this README.
 
 2. Select the "state" field for users with a first name of "Glory"
 
-3. Select all fields from users who's phone1 starts with "773"
+3. Select all fields from users whose phone1 starts with "773"
 
 ## Query Responses
 
