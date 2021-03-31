@@ -45,15 +45,27 @@ Also, put the answers in the "Query Responses" section of this README.
 
 1.
   * How many rows were returned:
+  Query:  select * from users where city = "Chicago" 
+  Answer: 7 rows returned
+
   * First name of the first user:
+  Answer: Mitue
 
 2.
   * How many rows were returned:
+  Query:  select state from users where first_name = 'Glory' 
+  Answer: 2 rows returned
+
   * What states do they live in:
+  Answer: MD, TX
 
 3.
   * How many rows were returned:
+  Query:  select * from users where phone1 Like'773%' 
+  Answer: 6 rows returned
+
   * What's the last email on the list:
+  Answer: nichelle_meteer@meteer.com
 
 ## Summary
 
