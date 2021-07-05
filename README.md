@@ -45,15 +45,20 @@ Also, put the answers in the "Query Responses" section of this README.
 
 1.
   * How many rows were returned:
+  7 rows
   * First name of the first user:
+  Mitsue
 
 2.
   * How many rows were returned:
+  2 rows
   * What states do they live in:
-
+  MD and TX
 3.
   * How many rows were returned:
+  6 rows
   * What's the last email on the list:
+    nichelle_meteer@meteer.com
 
 ## Summary
 
