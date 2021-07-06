@@ -43,17 +43,23 @@ Also, put the answers in the "Query Responses" section of this README.
 
 ## Query Responses
 
-1.
+1. select * from users where city like 'Chicago'
   * How many rows were returned:
+  7 rows returned
   * First name of the first user:
+  Mitsue Toliner 
 
-2.
+2. select state from users where first_name like 'Glory'
   * How many rows were returned:
+  2 rows returned
   * What states do they live in:
+  Maryland, Texas
 
-3.
+3. select * from users where phone1 like '773%'
   * How many rows were returned:
+  6 rows returned
   * What's the last email on the list:
+  nichelle_meteer@meteer.com
 
 ## Summary
 
