@@ -36,24 +36,36 @@ Also, put the answers in the "Query Responses" section of this README.
 > *NOTE: The query instructions are intentionally written in plain english. It's up to you to translate that into a SELECT statement.*
 
 1. Select all fields from users where the city equals Chicago
+     |
+     V
+select * from users where city = 'Chicago' LIMIT 1000; 
 
 2. Select the "state" field for users with a first name of "Glory"
+    |
+    V
+select state from users where first_name like 'Glory' LIMIT 1000; 
 
 3. Select all fields from users whose phone1 starts with "773"
+    |
+    V
+select * from users where phone1 like '773%' LIMIT 1000; 
 
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * 
+  * How many rows were returned: 7
+  * First name of the first user: The first name is Mitsue
 
 2.
-  * How many rows were returned:
-  * What states do they live in:
+  *
+  * How many rows were returned: 2
+  * What states do they live in: They live in MD and TX
 
 3.
-  * How many rows were returned:
-  * What's the last email on the list:
+  *
+  * How many rows were returned: 6
+  * What's the last email on the list: The email is 'nichelle_meteer@meteer.com'
 
 ## Summary
 
